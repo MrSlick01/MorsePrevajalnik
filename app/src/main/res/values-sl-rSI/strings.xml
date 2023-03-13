@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Morse prevajalnik</string>
+    <string name="text_main">Besedilo tukaj ...</string>
+    <string name="buttonkopiraj">Kopiraj</string>
+    <string name="prosnja">"Prosim, vnesite besedilo! "</string>
+    <string name="vsebina">Vsebina</string>
+    <string name="kopirano">Kopirano v odložišče</string>
+    <string name="prazno">Prazno</string>
+    <string name="menjaj">menjaj</string>
+    <string name="buttonT">Dekodiraj</string>
+    <string name="buttonM">Kodiraj</string>
+    <string name="text_second" />
+    <string name="x">X</string>
+</resources>

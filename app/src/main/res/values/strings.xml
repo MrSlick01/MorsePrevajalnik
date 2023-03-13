@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Morse translator</string>
+    <string name="text_main">Your text here ...</string>
+    <string name="buttonM">Encode</string>
+    <string name="buttonT">Decode</string>
+    <string name="buttonkopiraj">Copy</string>
+    <string name="prosnja">Please insert text!</string>
+    <string name="kopirano">Copied to Clipboard</string>
+    <string name="prazno">Empty</string>
+    <string name="menjaj">Switch</string>
+    <string name="vsebina">Data</string>
+    <string name="text_second"></string>
+    <string name="nic" translatable="false"></string>
+    <string name="x">X</string>
+</resources>

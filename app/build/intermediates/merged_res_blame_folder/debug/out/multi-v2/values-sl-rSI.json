@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jarcd\\AndroidStudioProjects\\MorsePrevajalnik_main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl-rSI\\values-sl-rSI.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jarcd\\AndroidStudioProjects\\MorsePrevajalnik_main\\app\\src\\main\\res\\values-sl-rSI\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,13",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,605",
+                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,31",
+                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,632"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,110,154,200,250,308,350,392,457,514,547,591",
+                        "endColumns": "54,43,45,49,57,41,41,64,56,32,43,31",
+                        "endOffsets": "105,149,195,245,303,345,387,452,509,542,586,618"
+                    }
+                }
+            ]
+        }
+    ]
+}
