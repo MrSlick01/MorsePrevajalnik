@@ -10,7 +10,6 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     Button gumb_kop;
     Button gumb_br;
     Button gumb_menjaj;
+    Button gumb_helpMain;
     ImageButton gumb_help;
 
 
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         gumb_br = findViewById(R.id.buttonbrisi);
         gumb_menjaj = findViewById(R.id.button_menjaj);
         gumb_help = findViewById(R.id.button_help);
-
+        gumb_helpMain = findViewById(R.id.button_helpMain);
 
 
         //gumb Menjaj
@@ -56,12 +56,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //gumba Kodiraj in Dekodiraj
-           //po kliku na gumb 'Kodiraj' izvede MorsePrevod
+           //po kliku na gumb za kodiranje izvede metodo MorsePrevod
         gumb_prevodM.setOnClickListener(view -> {
             prevodText.setText(MorsePrevod(Input.getText().toString()));
         });
 
-           //po kliku na gumb 'Dekodiraj' izvede TextPrevod
+           //po kliku na gumb za dekodiranje izvede metodo TextPrevod
         gumb_prevodT.setOnClickListener(view -> {
             prevodText.setText(TextPrevod(Input.getText().toString()));
         });
@@ -97,7 +97,10 @@ public class MainActivity extends AppCompatActivity {
 
         //gumb za pomoč
         gumb_help.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, popup.class)));
-        }
+
+        //gumb za pomoč
+        gumb_helpMain.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, popup2.class)));
+    }
 
 
 

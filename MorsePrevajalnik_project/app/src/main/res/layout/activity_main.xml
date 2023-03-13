@@ -83,21 +83,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_help" />
 
+
     <ScrollView
         android:id="@+id/scrollMain"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="337dp"
+        android:layout_height="422dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:background="#8A94C3D5"
         android:isScrollContainer="true"
         android:scrollbarAlwaysDrawVerticalTrack="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonkopiraj">
+        app:layout_constraintTop_toBottomOf="@+id/buttonkopiraj"
+        app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -125,7 +128,6 @@
 
         </LinearLayout>
     </ScrollView>
-
 
     <Button
         android:id="@+id/button_menjaj"
@@ -196,6 +198,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_helpMain"
+        android:layout_width="43dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="?"
+        android:textSize="30sp"
+        app:backgroundTint="#729BCD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Made by Dejan Jarc, 2021. Project Morse Translator."
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollMain"
+        app:layout_constraintVertical_bias="0.578" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

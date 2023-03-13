@@ -12,4 +12,6 @@
     <string name="text_second"></string>
     <string name="nic" translatable="false"></string>
     <string name="x">X</string>
+    <string name="pomoc">To write in Morse you must write in dots and dashes ( . and - ). If you would like to finish one letter you hit \"Space\" once and continue. To finish a word hit \"Space\", followed by two slashes ( // ) and hit \"Space\" one more time. (Example: .- // -. . -) Without hitting a \"Space\" the translation will be faulty.</string>
+
 </resources>

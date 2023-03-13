@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".popup" android:theme="@style/Theme.AppCompat.CustomTheme">
         </activity>
+        <activity android:name=".popup2" android:theme="@style/Theme.AppCompat.CustomTheme">
+        </activity>
     </application>
 
 </manifest>

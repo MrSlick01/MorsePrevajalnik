@@ -12,4 +12,5 @@
     <string name="buttonM">Kodiraj</string>
     <string name="text_second" />
     <string name="x">X</string>
+    <string name="pomoc">Za pisanje v Morseju morate pisati s pikami in pomišljaji (. in -). Če želite dokončati eno črko, enkrat pritisnite \"Presledek\" in nadaljujte. Za zaključek besede pritisnite \"Presledek\", sledita dve poševnici (//) in še enkrat pritisnite \"Presledek\". Brez pritiska na \"presledek\" bo prevod napačen.</string>
 </resources>
