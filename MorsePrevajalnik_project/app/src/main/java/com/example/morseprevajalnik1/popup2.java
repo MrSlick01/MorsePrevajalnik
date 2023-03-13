@@ -21,4 +21,3 @@ public class popup2 extends MainActivity{
         getWindow().setLayout((int)(sirina *0.8),(int)(visina *0.5));
     }
 }
-
