@@ -1,6 +1,0 @@
-com/example/morseprevajalnik1/BuildConfig.java
- com.example.morseprevajalnik1.BuildConfig
-com/example/morseprevajalnik1/MainActivity.java
- com.example.morseprevajalnik1.MainActivity
-com/example/morseprevajalnik1/popup.java
- com.example.morseprevajalnik1.popup
