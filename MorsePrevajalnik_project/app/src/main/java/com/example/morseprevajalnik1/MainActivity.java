@@ -26,9 +26,7 @@ public class MainActivity extends AppCompatActivity {
     Button gumb_menjaj;
     Button gumb_helpMain;
     ImageButton gumb_help;
-
-
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
             prevodText.setText(TextPrevod(Input.getText().toString()));
         });
 
-
         //gumb Kopiraj
         gumb_kop.setOnClickListener(v -> {
             String vred = prevodText.getText().toString();
@@ -102,8 +99,6 @@ public class MainActivity extends AppCompatActivity {
         gumb_helpMain.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, popup2.class)));
     }
 
-
-
     //prevajanje v besedilo
     private String TextPrevod(String str) {
         String textSifrirano = "";
@@ -119,7 +114,6 @@ public class MainActivity extends AppCompatActivity {
         }
       return textSifrirano;
     }
-
 
     //prevajanje v Morse
     private String MorsePrevod(String str) {
@@ -146,6 +140,4 @@ public class MainActivity extends AppCompatActivity {
 
         return morseSifrirano;
     }
-
-
 }
