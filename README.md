@@ -21,3 +21,4 @@ Izpis bo bil formatiran glede na klik gumba za željeno smer prevoda (bodisi iz 
 Besedilo se lahko manipulira s klikom na gumb **" Menjaj "**, ki obrne vnosno in izhodno polje. To omogoči hitro popravljanje ali obratno spreminjanje besedila na poljubnih simbolih.
 Besedilo iz izhodnega polja lahko kopiramo v odložišče s klikom na gumb **" Kopiraj "**.
 
+![image](https://user-images.githubusercontent.com/76999539/224995875-90333e9f-c16f-4443-9b4a-12337e0fe693.png)
