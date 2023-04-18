@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     Button gumb_menjaj;
     Button gumb_helpMain;
     ImageButton gumb_help;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
